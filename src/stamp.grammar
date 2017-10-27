@@ -1,0 +1,28 @@
+stamp
+ @description A Tree Language for creating template folders and files.
+ @catchAllKeyword error
+ @keywords
+  #!
+  prompt
+  folder
+  file
+#!
+ @parameters any*
+prompt
+ @parameters any type any*
+ @parseClass ./PromptNode.js
+error
+ @parseClass ErrorNode
+folder
+ @parameters filepath
+ @parseClass ./FolderNode.js
+file
+ @parameters filepath
+ @parseClass ./FileNode.js
+ @keywords
+  data
+any
+ @parameters any*
+ @catchAllKeyword any
+data
+ @catchAllKeyword any
