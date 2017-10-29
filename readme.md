@@ -12,15 +12,18 @@ The web is full of project tutorials like <a href="https://docs.npmjs.com/gettin
 that ask their readers to go through a series of steps to create a particular folder and file structure for a new project.
 
 The current options for this situation are:
-- The Recipe Method - explain each step
+
+*The Recipe Method - explain each step*
  - Downside: If your basic project layout requires 10 files, that's 10 separate steps the reader has to do just to get started.
  - Downside: The reader might make an error during one of those steps and lose even more time.
  - Downside: Putting such steps in a narrative and updating that narrative if things change is time consuming as an author
-- The Zip Method - zip the template directory
+
+*The Zip Method - zip the template directory*
  - Downside: zip files are opaque and a user has no visibility into what they are creating
  - Downside: everytime the template changes, author has to rezip and reupload the folder
  - Downside: once unzipped, user has to manually change names to match the name of their project
-- The Custom Utility Method - implement a custom command line program that generates new projects
+
+*The Custom Utility Method - implement a custom command line program that generates new projects*
  - Downside: No visibility into what is getting created
  - Downside: If the template changes, now author needs to get users to install the new template program
  - Downside: Now you have a whole new complicated program to write and maintain
