@@ -3,7 +3,8 @@ const fs = require("fs")
 
 const StampGrammar = fs.readFileSync(__dirname + "/stamp.grammar", "utf8")
 
-// todo: execute and patch methods. also, diff method?
+// todo: file permissions
+// todo: diff/patch
 // todo: compile to bash, js, go, et cetera
 // todo: export folder to stamp file
 // not meant to be used in browser.

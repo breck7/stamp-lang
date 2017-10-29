@@ -1,7 +1,7 @@
 {
   "name": "stamp-lang",
   "version": "1.0.0",
-  "description": "A Tree Language for creating distributable text template files that expand to folders and files.",
+  "description": "Stamp is an alternative to zip files for sharing a collection of folders and text files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
