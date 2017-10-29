@@ -16,11 +16,13 @@ error
 folder
  @parameters filepath
  @parseClass ./FolderNode.js
+executable
 file
  @parameters filepath
  @parseClass ./FileNode.js
  @keywords
   data
+  executable
 any
  @parameters any*
  @catchAllKeyword any

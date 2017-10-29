@@ -18,6 +18,8 @@ echo -e "${this.childrenToString()}" >> ${filePath}`
     const data = this.getNode("data")
     const content = data ? data.childrenToString() : ""
     fs.writeFileSync(path, content, "utf8")
+    const isExecutable = this.has("executable") // todo: allow for all file permissions?
+    if (isExecutable) fs.chmodSync(path, "755")
   }
 }
 
