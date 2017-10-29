@@ -1,10 +1,12 @@
 # Stamp
 
-Stamp is an alternative to zip files for sharing a collection of folders and text files.
+Stamp is an alternative to zip files for sharing a small collection of folders and text files.
 
 A Stamp Program is an easily readable plain text program that when executed creates the files and folders listed.
 
 Stamp Programs can also prompt the user for input and use that input throughout the created files and folders.
+
+Frequently programmers have templates that they start new projects with. Those templates can be turned into Stamp programs.
 
 # The Problem
 
