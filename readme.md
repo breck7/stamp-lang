@@ -64,3 +64,8 @@ The current options for this situation are:
     file PROJECTNAME/readme.md
      data
       # PROJECTNAME
+
+## Similar Projects
+
+- ptar (https://github.com/jtvaughan/ptar) - full featured, but difference is the file output is a custom format (not a Tree Language)
+- shar (https://en.wikipedia.org/wiki/Shar) - old school method that has the major security flaw of potentially running any shell command
