@@ -10,11 +10,13 @@
     "type": "git",
     "url": "github.com/breck7/stamp-lang"
   },
-  "keywords": ["stamp"],
+  "keywords": [
+    "stamp"
+  ],
   "author": "Breck Yunits",
   "license": "MIT",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "treeprogram": "^8.3.0"
+    "treeprogram": "^8.5.0"
   }
 }
