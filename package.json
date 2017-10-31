@@ -17,6 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "treeprogram": "^8.5.0"
+    "treeprogram": "^8.6.0"
   }
 }

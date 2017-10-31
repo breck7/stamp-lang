@@ -7,24 +7,24 @@ stamp
   folder
   file
 #!
- @parameters any*
+ @columns any*
 prompt
- @parameters any type any*
+ @columns any type any*
  @parseClass ./PromptNode.js
 error
  @parseClass ErrorNode
 folder
- @parameters filepath
+ @columns filepath
  @parseClass ./FolderNode.js
 executable
 file
- @parameters filepath
+ @columns filepath
  @parseClass ./FileNode.js
  @keywords
   data
   executable
 any
- @parameters any*
+ @columns any*
  @catchAllKeyword any
 data
  @catchAllKeyword any
