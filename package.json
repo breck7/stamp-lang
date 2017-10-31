@@ -1,6 +1,6 @@
 {
   "name": "stamp-lang",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stamp is an alternative to zip files for sharing a collection of folders and text files.",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,7 @@
     "type": "git",
     "url": "github.com/breck7/stamp-lang"
   },
-  "keywords": [
-    "stamp"
-  ],
+  "keywords": ["stamp"],
   "author": "Breck Yunits",
   "license": "MIT",
   "dependencies": {
