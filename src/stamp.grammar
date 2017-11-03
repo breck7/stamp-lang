@@ -10,16 +10,16 @@ stamp
  @columns any*
 prompt
  @columns any type any*
- @parseClass ./PromptNode.js
+ @parser js ./PromptNode.js
 error
- @parseClass ErrorNode
+ @parser js ErrorNode
 folder
  @columns filepath
- @parseClass ./FolderNode.js
+ @parser js ./FolderNode.js
 executable
 file
  @columns filepath
- @parseClass ./FileNode.js
+ @parser js ./FileNode.js
  @keywords
   data
   executable
