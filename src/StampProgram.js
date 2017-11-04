@@ -1,7 +1,4 @@
 const TreeProgram = require("treeprogram")
-const fs = require("fs")
-
-const StampGrammar = fs.readFileSync(__dirname + "/stamp.grammar", "utf8")
 
 // todo: file permissions
 // todo: diff/patch
@@ -10,14 +7,6 @@ const StampGrammar = fs.readFileSync(__dirname + "/stamp.grammar", "utf8")
 // not meant to be used in browser.
 
 class StampProgram extends TreeProgram {
-  getGrammarString() {
-    return StampGrammar
-  }
-
-  getGrammarFilePath() {
-    return __dirname + "/stamp.grammar"
-  }
-
   async executeSeries(context) {
     const length = this.length
     for (let index = 0; index < length; index++) {

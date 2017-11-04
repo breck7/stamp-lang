@@ -1,1 +1,1 @@
-module.exports = require("./src/StampProgram.js")
+module.exports = require("treeprogram").getProgramClassFromGrammarFile(__dirname + "/src/stamp.grammar")

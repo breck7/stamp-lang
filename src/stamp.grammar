@@ -1,6 +1,7 @@
 stamp
  @description A Tree Language for creating distributable text template files that expand to folders and files.
  @catchAllKeyword error
+ @parser js ./StampProgram.js
  @keywords
   #!
   prompt
