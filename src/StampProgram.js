@@ -1,4 +1,4 @@
-const TreeProgram = require("treeprogram")
+const otree = require("otree")
 
 // todo: file permissions
 // todo: diff/patch
@@ -6,7 +6,7 @@ const TreeProgram = require("treeprogram")
 // todo: export folder to stamp file
 // not meant to be used in browser.
 
-class StampProgram extends TreeProgram {
+class StampProgram extends otree.program {
   async executeSeries(context) {
     const length = this.length
     for (let index = 0; index < length; index++) {

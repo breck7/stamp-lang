@@ -1,7 +1,7 @@
 const fs = require("fs")
-const TreeProgram = require("treeprogram")
+const otree = require("otree")
 
-class FileNode extends TreeProgram.NonTerminalNode {
+class FileNode extends otree.NonTerminalNode {
   compileToBash(parentDir) {
     const filePath = this.getAbsolutePath()
     return `touch ${filePath}

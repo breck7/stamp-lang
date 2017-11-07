@@ -1,7 +1,7 @@
 const mkdirp = require("mkdirp")
-const TreeProgram = require("treeprogram")
+const otree = require("otree")
 
-class FolderNode extends TreeProgram.TerminalNode {
+class FolderNode extends otree.TerminalNode {
   compileToBash(parentDir) {
     return `mkdir ${this.getAbsolutePath()}`
   }
