@@ -9,7 +9,7 @@ class PromptNode extends otree.TerminalNode {
         output: process.stdout
       })
 
-      rl.question(this.getWords(3).join(" ") + " ", answer => {
+      rl.question(this.getWordsFrom(3).join(" ") + " ", answer => {
         rl.close()
         // todo: typecheck the response
         const varName = this.getWord(1)

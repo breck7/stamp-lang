@@ -1,4 +1,4 @@
-stamp
+@grammar stamp
  @description A Tree Language for creating distributable text template files that expand to folders and files.
  @catchAllKeyword error
  @parser js ./StampProgram.js
@@ -7,25 +7,25 @@ stamp
   prompt
   folder
   file
-#!
+@keyword #!
  @columns any*
-prompt
+@keyword prompt
  @columns any type any*
  @parser js ./PromptNode.js
-error
+@keyword error
  @parser js ErrorNode
-folder
+@keyword folder
  @columns filepath
  @parser js ./FolderNode.js
-executable
-file
+@keyword executable
+@keyword file
  @columns filepath
  @parser js ./FileNode.js
  @keywords
   data
   executable
-any
+@keyword any
  @columns any*
  @catchAllKeyword any
-data
+@keyword data
  @catchAllKeyword any

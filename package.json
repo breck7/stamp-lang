@@ -1,6 +1,6 @@
 {
   "name": "stamp-lang",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "Stamp is an alternative to zip files for sharing a collection of folders and text files.",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "otree": "^11.2.3"
+    "otree": "^12.1.0"
   }
 }
