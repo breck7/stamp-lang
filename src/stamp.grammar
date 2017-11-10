@@ -7,10 +7,16 @@
   prompt
   folder
   file
+@wordType any
+ @regex .?
+@wordType filepath
+ @regex .?
+@wordType inputType
+ @regex ^(string|int|any)$
 @keyword #!
  @columns any*
 @keyword prompt
- @columns any type any*
+ @columns any inputType any*
  @parser js ./PromptNode.js
 @keyword error
  @parser js ErrorNode
