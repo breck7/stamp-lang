@@ -1,10 +1,13 @@
 {
   "name": "stamp-lang",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Stamp is an alternative to zip files for sharing a collection of folders and text files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stamp": "./cli.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,8 @@
   "author": "Breck Yunits",
   "license": "MIT",
   "dependencies": {
+    "jtree": "^14.5.0",
     "mkdirp": "^0.5.1",
-    "otree": "^13.0.0"
+    "recursive-readdir-sync": "^1.0.6"
   }
 }

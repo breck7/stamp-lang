@@ -1,7 +1,7 @@
 const readline = require("readline")
-const otree = require("otree")
+const jtree = require("jtree")
 
-class PromptNode extends otree.TerminalNode {
+class PromptNode extends jtree.TerminalNode {
   execute() {
     return new Promise((res, rej) => {
       const rl = readline.createInterface({
